@@ -5,8 +5,7 @@
 ## Design
 
 模写元：
-[[Figma - Coffea Free Responsive Coffee Shop Website Template](https://www.figma.com/community/file/1521850636801222788/coffea-free-responsive-coffee-shop-website-template)
-](https://www.figma.com/community/file/1298887728670431393/banking-company-website-ui-template-design-in-dark-theme-free-editable)
+[Figma - Banking Company Website UI Template Design in Dark Theme (FREE Editable)](https://www.figma.com/community/file/1298887728670431393)
 
 ## Demo
 
