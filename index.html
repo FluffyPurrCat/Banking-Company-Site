@@ -1,0 +1,1247 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Banking Company</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&family=Lexend:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="site-wrapper">
+      <header class="navigation-bar">
+        <nav>
+          <h1><img src="images/Logo.png" alt="" /></h1>
+
+          <ul>
+            <li><a class="home" href="#">Home</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Security</a></li>
+          </ul>
+
+          <button id="open">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="size-6"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm8.25 5.25a.75.75 0 0 1 .75-.75h8.25a.75.75 0 0 1 0 1.5H12a.75.75 0 0 1-.75-.75Z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </button>
+
+          <div class="login-wrapper">
+            <a href="#">Sign Up</a>
+            <a class="login" href="#">Login</a>
+          </div>
+
+          <div class="overlay">
+            <button id="close">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M6 18 18 6M6 6l12 12"
+                />
+              </svg>
+            </button>
+            <ul>
+              <li><a class="overlay-home" href="#">Home</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Security</a></li>
+              <li><a href="#">Sign Up</a><a href="#">Login</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero-section">
+          <img
+            class="background-img-1"
+            src="images/AbstractDesign1.svg"
+            alt=""
+          />
+          <img
+            class="background-img-2"
+            src="images/AbstractDesign2.svg"
+            alt=""
+          />
+
+          <section class="hero-header">
+            <div class="container">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="size-6"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M8.603 3.799A4.49 4.49 0 0 1 12 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 0 1 3.498 1.307 4.491 4.491 0 0 1 1.307 3.497A4.49 4.49 0 0 1 21.75 12a4.49 4.49 0 0 1-1.549 3.397 4.491 4.491 0 0 1-1.307 3.497 4.491 4.491 0 0 1-3.497 1.307A4.49 4.49 0 0 1 12 21.75a4.49 4.49 0 0 1-3.397-1.549 4.49 4.49 0 0 1-3.498-1.306 4.491 4.491 0 0 1-1.307-3.498A4.49 4.49 0 0 1 2.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 0 1 1.307-3.497 4.49 4.49 0 0 1 3.497-1.307Zm7.007 6.387a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <p>No LLC Required, No Credit Check.</p>
+            </div>
+            <header>
+              <h2>
+                Welcome to YourBank Empowering Your
+                <span>Financial Journey</span>
+              </h2>
+              <p>
+                At YourBank, our mission is to provide comprehensive banking
+                solutions that empower individuals and businesses to achieve
+                their financial goals. We are committed to delivering
+                personalized and innovative services that prioritize our
+                customers' needs.
+              </p>
+            </header>
+            <a href="#">Open Account</a>
+          </section>
+
+          <section class="hero-main">
+            <section class="transactions">
+              <h3>Your Transactions</h3>
+              <ul>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M7.5 21 3 16.5m0 0L7.5 12M3 16.5h13.5m0-13.5L21 7.5m0 0L16.5 12M21 7.5H7.5"
+                    />
+                  </svg>
+                  <div>
+                    <h4>Transaction</h4>
+                    <p>Joel Kenley</p>
+                  </div>
+                  <p class="amount">-$68.00</p>
+                </li>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M7.5 21 3 16.5m0 0L7.5 12M3 16.5h13.5m0-13.5L21 7.5m0 0L16.5 12M21 7.5H7.5"
+                    />
+                  </svg>
+                  <div>
+                    <h4>Transaction</h4>
+                    <p>Mark Smith</p>
+                  </div>
+                  <p class="amount">-$68.00</p>
+                </li>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M7.5 21 3 16.5m0 0L7.5 12M3 16.5h13.5m0-13.5L21 7.5m0 0L16.5 12M21 7.5H7.5"
+                    />
+                  </svg>
+                  <div>
+                    <h4>Transaction</h4>
+                    <p>Lenen Roy</p>
+                  </div>
+                  <p class="amount">-$68.00</p>
+                </li>
+              </ul>
+            </section>
+
+            <section class="money-exchange">
+              <h3>Money Exchange</h3>
+              <div class="table-wraper">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>
+                        <div>
+                          <img src="images/india.svg" alt="India" />
+                          <p>INR</p>
+                        </div>
+                        <p class="currency-name">Indian Rupees</p>
+                      </th>
+                      <th>
+                        <div>
+                          <img
+                            src="images/USA.svg"
+                            alt="United States of America"
+                          />
+                          <p>USD</p>
+                        </div>
+                        <p class="currency-name">United States Dollar</p>
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>50,000</td>
+                      <td>12.00</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <a href="#">Exchange</a>
+            </section>
+
+            <section class="monthly-income">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="size-6"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M12 3.75a.75.75 0 0 1 .75.75v6.75h6.75a.75.75 0 0 1 0 1.5h-6.75v6.75a.75.75 0 0 1-1.5 0v-6.75H4.5a.75.75 0 0 1 0-1.5h6.75V4.5a.75.75 0 0 1 .75-.75Z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <div>
+                <p class="amount">+ $500,000</p>
+                <h4>Monthly Income</h4>
+              </div>
+            </section>
+
+            <section class="supported-currency">
+              <h3>Supported Currency</h3>
+              <ul>
+                <li><img src="images/USD.png" alt="USD" /></li>
+                <li><img src="images/EUR.png" alt="EURO" /></li>
+                <li><img src="images/BitCoin.png" alt="BitCoin" /></li>
+                <li><img src="images/Ethereum.png" alt="Ethereum" /></li>
+              </ul>
+            </section>
+          </section>
+        </section>
+
+        <section class="products">
+          <div class="header-wrapper">
+            <header>
+              <h2>Our <span>Products</span></h2>
+              <p>
+                Discover a range of comprehensive and customizable banking
+                products at YourBank, designed to suit your unique financial
+                needs and aspirations
+              </p>
+            </header>
+            <div class="btns">
+              <a href="#" class="active" data-id="individuals"
+                >For Individuals</a
+              >
+              <a href="#" data-id="buisinesses">For Buisinesses</a>
+            </div>
+          </div>
+          <dl class="product active" id="individuals">
+            <div>
+              <dt>
+                <img src="images/case.svg" alt="" />
+                <h3>Checking Accounts</h3>
+              </dt>
+              <dd>
+                Enjoy easy and convenient access to your funds with our range of
+                checking account options. Benefit from features such as online
+                and mobile banking, debit cards, and free ATM access.
+              </dd>
+            </div>
+            <div>
+              <dt>
+                <img src="images/archive.svg" alt="" />
+                <h3>Savings Accounts</h3>
+              </dt>
+              <dd>
+                Build your savings with our competitive interest rates and
+                flexible savings account options. Whether you're saving for a
+                specific goal or want to grow your wealth over time, we have the
+                right account for you.
+              </dd>
+            </div>
+            <div>
+              <dt>
+                <img src="images/banknotes.svg" alt="" />
+                <h3>Loans and Mortgages</h3>
+              </dt>
+              <dd>
+                Realize your dreams with our flexible loan and mortgage options.
+                From personal loans to home mortgages, our experienced loan
+                officers are here to guide you through the application process
+                and help you secure the funds you need.
+              </dd>
+            </div>
+          </dl>
+          <dl class="product" id="buisinesses">
+            <div>
+              <dt>
+                <img src="images/case.svg" alt="" />
+                <h3>Checking</h3>
+              </dt>
+              <dd>
+                Enjoy easy and convenient access to your funds with our range of
+                checking account options. Benefit from features such as online
+                and mobile banking, debit cards, and free ATM access.
+              </dd>
+            </div>
+            <div>
+              <dt>
+                <img src="images/archive.svg" alt="" />
+                <h3>Savings</h3>
+              </dt>
+              <dd>
+                Build your savings with our competitive interest rates and
+                flexible savings account options. Whether you're saving for a
+                specific goal or want to grow your wealth over time, we have the
+                right account for you.
+              </dd>
+            </div>
+            <div>
+              <dt>
+                <img src="images/banknotes.svg" alt="" />
+                <h3>Loans</h3>
+              </dt>
+              <dd>
+                Realize your dreams with our flexible loan and mortgage options.
+                From personal loans to home mortgages, our experienced loan
+                officers are here to guide you through the application process
+                and help you secure the funds you need.
+              </dd>
+            </div>
+          </dl>
+        </section>
+
+        <section class="use-cases">
+          <header>
+            <h2><span>Use Cases</span></h2>
+            <p>
+              At YourBank, we cater to the diverse needs of individuals and
+              businesses alike, offering a wide range of financial solutions
+            </p>
+          </header>
+          <section class="cases">
+            <ul class="cases-container">
+              <li>
+                <img src="images/money1.svg" alt="" />
+                <p>Managing Personal Finances</p>
+              </li>
+              <li>
+                <img src="images/money2.svg" alt="" />
+                <p>Saving for the Future</p>
+              </li>
+              <li>
+                <img src="images/bank.svg" alt="" />
+                <p>Homeownership</p>
+              </li>
+              <li>
+                <img src="images/book.svg" alt="" />
+                <p>Education Funding</p>
+              </li>
+              <img
+                class="background-img-3"
+                src="images/AbstractDesign3.svg"
+                alt=""
+              />
+            </ul>
+            <section class="cases-detail">
+              <header>
+                <h3>For Individuals</h3>
+                <p>
+                  For individuals, our mortgage services pave the way to
+                  homeownership, and our flexible personal loans provide vital
+                  support during various life milestones. We also prioritize
+                  retirement planning, ensuring a financially secure future for
+                  our customers
+                </p>
+              </header>
+              <ul>
+                <li>
+                  <p>78%</p>
+                  <h4>Secure Retirement Planning</h4>
+                </li>
+                <li>
+                  <p>63%</p>
+                  <h4>Manageable Debt Consolidation</h4>
+                </li>
+                <li>
+                  <p>91%</p>
+                  <h4>Reducing financial burdens</h4>
+                </li>
+              </ul>
+              <a href="#">Learn More</a>
+            </section>
+          </section>
+          <section class="cases">
+            <ul class="cases-container">
+              <li>
+                <img src="images/building.svg" alt="" />
+                <p>Startups and Entrepreneurs</p>
+              </li>
+              <li>
+                <img src="images/cash.svg" alt="" />
+                <p>Cash Flow Management</p>
+              </li>
+              <li>
+                <img src="images/chart-box.svg" alt="" />
+                <p>Business Expansion</p>
+              </li>
+              <li>
+                <img src="images/dollar.svg" alt="" />
+                <p>Payment Solutions</p>
+              </li>
+              <img
+                class="background-img-3"
+                src="images/AbstractDesign3.svg"
+                alt=""
+              />
+            </ul>
+            <section class="cases-detail">
+              <header>
+                <h3>For Business</h3>
+                <p>
+                  For businesses, we empower growth with working capital
+                  solutions that optimize cash flow, and our tailored financing
+                  options fuel business expansion. Whatever your financial
+                  aspirations, YourBank is committed to providing the right
+                  tools and support to achieve them
+                </p>
+              </header>
+              <ul>
+                <li>
+                  <p>65%</p>
+                  <h4>Cash Flow Management</h4>
+                </li>
+                <li>
+                  <p>70%</p>
+                  <h4>Drive Business Expansion</h4>
+                </li>
+                <li>
+                  <p>45%</p>
+                  <h4>Streamline payroll processing</h4>
+                </li>
+              </ul>
+              <a href="#">Learn More</a>
+            </section>
+          </section>
+        </section>
+
+        <section class="features">
+          <header>
+            <h2>Our <span>Features</span></h2>
+            <p>
+              Experience a host of powerful features at YourBank, including
+              seamless online banking, secure transactions, and personalized
+              financial insights, all designed to enhance your banking
+              experience
+            </p>
+          </header>
+          <section class="features-wrapper">
+            <ul class="btns">
+              <li class="active" data-id="banking">
+                <a href="#">Online Banking</a>
+              </li>
+              <li data-id="tools">
+                <a href="#">Financial Tools</a>
+              </li>
+              <li data-id="support">
+                <a href="#">Customer Support</a>
+              </li>
+            </ul>
+            <dl class="active" id="banking">
+              <div class="feature">
+                <dt>
+                  24/7 Account Access
+                  <a href="#">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="size-6"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                      />
+                    </svg>
+                  </a>
+                </dt>
+                <dd>
+                  Enjoy the convenience of accessing your accounts anytime,
+                  anywhere through our secure online banking platform. Check
+                  balances, transfer funds, and pay bills with ease.
+                </dd>
+              </div>
+              <div class="feature">
+                <dt>
+                  Mobile Banking App
+                  <a href="#">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="size-6"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                      />
+                    </svg>
+                  </a>
+                </dt>
+                <dd>
+                  Stay connected to your finances on the go with our
+                  user-friendly mobile banking app. Easily manage your accounts,
+                  deposit checks, and make payments from your smartphone or
+                  tablet.
+                </dd>
+              </div>
+              <div class="feature">
+                <dt>
+                  Secure Transactions
+                  <a href="#">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="size-6"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                      />
+                    </svg>
+                  </a>
+                </dt>
+                <dd>
+                  Rest assured knowing that your transactions are protected by
+                  industry-leading security measures. We employ encryption and
+                  multi-factor authentication to safeguard your financial
+                  information.
+                </dd>
+              </div>
+              <div class="feature">
+                <dt>
+                  Bill Pay and Transfers
+                  <a href="#">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="size-6"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                      />
+                    </svg>
+                  </a>
+                </dt>
+                <dd>
+                  Save time and avoid late fees with our convenient bill pay
+                  service. Set up recurring payments or make one-time transfers
+                  between your accounts with just a few clicks.
+                </dd>
+              </div>
+            </dl>
+            <dl id="tools">
+              <div class="feature">
+                <dt>
+                  Access
+                  <a href="#">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="size-6"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                      />
+                    </svg>
+                  </a>
+                </dt>
+                <dd>
+                  Enjoy the convenience of accessing your accounts anytime,
+                  anywhere through our secure online banking platform. Check
+                  balances, transfer funds, and pay bills with ease.
+                </dd>
+              </div>
+              <div class="feature">
+                <dt>
+                  App
+                  <a href="#">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="size-6"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                      />
+                    </svg>
+                  </a>
+                </dt>
+                <dd>
+                  Stay connected to your finances on the go with our
+                  user-friendly mobile banking app. Easily manage your accounts,
+                  deposit checks, and make payments from your smartphone or
+                  tablet.
+                </dd>
+              </div>
+              <div class="feature">
+                <dt>
+                  Transactions
+                  <a href="#">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="size-6"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                      />
+                    </svg>
+                  </a>
+                </dt>
+                <dd>
+                  Rest assured knowing that your transactions are protected by
+                  industry-leading security measures. We employ encryption and
+                  multi-factor authentication to safeguard your financial
+                  information.
+                </dd>
+              </div>
+              <div class="feature">
+                <dt>
+                  Transfers
+                  <a href="#">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="size-6"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                      />
+                    </svg>
+                  </a>
+                </dt>
+                <dd>
+                  Save time and avoid late fees with our convenient bill pay
+                  service. Set up recurring payments or make one-time transfers
+                  between your accounts with just a few clicks.
+                </dd>
+              </div>
+            </dl>
+            <dl id="support">
+              <div class="feature">
+                <dt>
+                  Account Access
+                  <a href="#">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="size-6"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                      />
+                    </svg>
+                  </a>
+                </dt>
+                <dd>
+                  Enjoy the convenience of accessing your accounts anytime,
+                  anywhere through our secure online banking platform. Check
+                  balances, transfer funds, and pay bills with ease.
+                </dd>
+              </div>
+              <div class="feature">
+                <dt>
+                  Banking App
+                  <a href="#">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="size-6"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                      />
+                    </svg>
+                  </a>
+                </dt>
+                <dd>
+                  Stay connected to your finances on the go with our
+                  user-friendly mobile banking app. Easily manage your accounts,
+                  deposit checks, and make payments from your smartphone or
+                  tablet.
+                </dd>
+              </div>
+              <div class="feature">
+                <dt>
+                  Secure
+                  <a href="#">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="size-6"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                      />
+                    </svg>
+                  </a>
+                </dt>
+                <dd>
+                  Rest assured knowing that your transactions are protected by
+                  industry-leading security measures. We employ encryption and
+                  multi-factor authentication to safeguard your financial
+                  information.
+                </dd>
+              </div>
+              <div class="feature">
+                <dt>
+                  Bill Pay
+                  <a href="#">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="size-6"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                      />
+                    </svg>
+                  </a>
+                </dt>
+                <dd>
+                  Save time and avoid late fees with our convenient bill pay
+                  service. Set up recurring payments or make one-time transfers
+                  between your accounts with just a few clicks.
+                </dd>
+              </div>
+            </dl>
+          </section>
+        </section>
+
+        <section class="FAQa">
+          <header>
+            <h2><span>Frequently</span> Asked Questions</h2>
+            <p>
+              Still you have any questions? Contact our Team via
+              support@yourbank.com
+            </p>
+          </header>
+          <ul>
+            <li>
+              <h3>How do I open an account with YourBank?</h3>
+              <p>
+                Opening an account with YourBank is easy. Simply visit our
+                website and click on the "Open an Account" button. Follow the
+                prompts, provide the required information, and complete the
+                application process. If you have any questions or need
+                assistance, our customer support team is available to help.
+              </p>
+            </li>
+            <li>
+              <h3>What documents do I need to provide to apply for a loan?</h3>
+              <p>
+                The documents required for a loan application may vary depending
+                on the type of loan you are applying for. Generally, you will
+                need to provide identification documents (such as a passport or
+                driver's license), proof of income (such as pay stubs or tax
+                returns), and information about the collateral (if applicable).
+                Our loan officers will guide you through the specific
+                requirements during the application process.
+              </p>
+            </li>
+            <li>
+              <h3>How can I access my accounts online?</h3>
+              <p>
+                Accessing your accounts online is simple and secure. Visit our
+                website and click on the "Login" button. Enter your username and
+                password to access your accounts. If you haven't registered for
+                online banking, click on the "Enroll Now" button and follow the
+                registration process. If you need assistance, our customer
+                support team is available to guide you.
+              </p>
+            </li>
+            <li>
+              <h3>Are my transactions and personal information secure?</h3>
+              <p>
+                At YourBank, we prioritize the security of your transactions and
+                personal information. We employ industry-leading encryption and
+                multi-factor authentication to ensure that your data is
+                protected. Additionally, we regularly update our security
+                measures to stay ahead of emerging threats. You can bank with
+                confidence knowing that we have robust security systems in
+                place.
+              </p>
+            </li>
+          </ul>
+          <button>
+            Load All FAQ’s
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m19.5 8.25-7.5 7.5-7.5-7.5"
+              />
+            </svg>
+          </button>
+        </section>
+
+        <section class="testimonials">
+          <div class="header-wrapper">
+            <header>
+              <h2>Our <span>Testimonials</span></h2>
+              <p>
+                Discover how YourBank has transformed lives with innovative
+                digital solutions and personalized customer service. See why our
+                clients trust us for a secure and prosperous financial journey
+              </p>
+            </header>
+            <div class="btns">
+              <a href="#" class="active" data-id="testimonials-individuals"
+                >For Individuals</a
+              >
+              <a href="#" data-id="testimonials-buissiness">For Buisinesses</a>
+            </div>
+          </div>
+          <section
+            class="swiper-container active"
+            id="testimonials-individuals"
+          >
+            <div class="btns prev-btn">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18"
+                />
+              </svg>
+            </div>
+            <div class="swiper swiper1">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="bar-img">
+                    <img src="images/quotation.svg" alt="" />
+                  </div>
+                  <p>
+                    I recently started my own business, and YourBank has been
+                    instrumental in helping me set up my business accounts and
+                    secure the financing I needed. Their expert guidance and
+                    tailored solutions have been invaluable.
+                  </p>
+                  <h3>John D</h3>
+                </div>
+                <div class="swiper-slide">
+                  <div class="bar-img">
+                    <img src="images/quotation.svg" alt="" />
+                  </div>
+                  <p>
+                    I love the convenience of YourBank's mobile banking app. It
+                    allows me to stay on top of my finances and make
+                    transactions on the go. The app is user-friendly and secure,
+                    giving me peace of mind.
+                  </p>
+                  <h3>Emily G</h3>
+                </div>
+                <div class="swiper-slide">
+                  <div class="bar-img">
+                    <img src="images/quotation.svg" alt="" />
+                  </div>
+                  <p>
+                    YourBank has been my trusted financial partner for years.
+                    Their personalized service and innovative digital banking
+                    solutions have made managing my finances a breeze.
+                  </p>
+                  <h3>Sara T</h3>
+                </div>
+                <div class="swiper-slide">
+                  <div class="bar-img">
+                    <img src="images/quotation.svg" alt="" />
+                  </div>
+                  <p>
+                    I recently started my own business, and YourBank has been
+                    instrumental in helping me set up my business accounts and
+                    secure the financing I needed. Their expert guidance and
+                    tailored solutions have been invaluable.
+                  </p>
+                  <h3>John D</h3>
+                </div>
+                <div class="swiper-slide">
+                  <div class="bar-img">
+                    <img src="images/quotation.svg" alt="" />
+                  </div>
+                  <p>
+                    I love the convenience of YourBank's mobile banking app. It
+                    allows me to stay on top of my finances and make
+                    transactions on the go. The app is user-friendly and secure,
+                    giving me peace of mind.
+                  </p>
+                  <h3>Emily G</h3>
+                </div>
+                <div class="swiper-slide">
+                  <div class="bar-img">
+                    <img src="images/quotation.svg" alt="" />
+                  </div>
+                  <p>
+                    YourBank has been my trusted financial partner for years.
+                    Their personalized service and innovative digital banking
+                    solutions have made managing my finances a breeze.
+                  </p>
+                  <h3>Sara T</h3>
+                </div>
+              </div>
+            </div>
+            <div class="btns next-btn">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
+                />
+              </svg>
+            </div>
+          </section>
+
+          <section class="swiper-container" id="testimonials-buissiness">
+            <div class="btns prev-btn2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18"
+                />
+              </svg>
+            </div>
+            <div class="swiper swiper2">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="bar-img">
+                    <img src="images/quotation.svg" alt="" />
+                  </div>
+                  <p>
+                    I recently started my own business, and YourBank has been
+                    instrumental in helping me set up my business accounts and
+                    secure the financing I needed. Their expert guidance and
+                    tailored solutions have been invaluable.
+                  </p>
+                  <h3>D</h3>
+                </div>
+                <div class="swiper-slide">
+                  <div class="bar-img">
+                    <img src="images/quotation.svg" alt="" />
+                  </div>
+                  <p>
+                    I love the convenience of YourBank's mobile banking app. It
+                    allows me to stay on top of my finances and make
+                    transactions on the go. The app is user-friendly and secure,
+                    giving me peace of mind.
+                  </p>
+                  <h3>G</h3>
+                </div>
+                <div class="swiper-slide">
+                  <div class="bar-img">
+                    <img src="images/quotation.svg" alt="" />
+                  </div>
+                  <p>
+                    YourBank has been my trusted financial partner for years.
+                    Their personalized service and innovative digital banking
+                    solutions have made managing my finances a breeze.
+                  </p>
+                  <h3>T</h3>
+                </div>
+                <div class="swiper-slide">
+                  <div class="bar-img">
+                    <img src="images/quotation.svg" alt="" />
+                  </div>
+                  <p>
+                    I recently started my own business, and YourBank has been
+                    instrumental in helping me set up my business accounts and
+                    secure the financing I needed. Their expert guidance and
+                    tailored solutions have been invaluable.
+                  </p>
+                  <h3>D</h3>
+                </div>
+                <div class="swiper-slide">
+                  <div class="bar-img">
+                    <img src="images/quotation.svg" alt="" />
+                  </div>
+                  <p>
+                    I love the convenience of YourBank's mobile banking app. It
+                    allows me to stay on top of my finances and make
+                    transactions on the go. The app is user-friendly and secure,
+                    giving me peace of mind.
+                  </p>
+                  <h3>G</h3>
+                </div>
+                <div class="swiper-slide">
+                  <div class="bar-img">
+                    <img src="images/quotation.svg" alt="" />
+                  </div>
+                  <p>
+                    YourBank has been my trusted financial partner for years.
+                    Their personalized service and innovative digital banking
+                    solutions have made managing my finances a breeze.
+                  </p>
+                  <h3>T</h3>
+                </div>
+              </div>
+            </div>
+            <div class="btns next-btn2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
+                />
+              </svg>
+            </div>
+          </section>
+        </section>
+
+        <section class="CTA">
+          <header>
+            <h2>
+              Start your financial journey with <span>YourBank today!</span>
+            </h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur. Blandit odio semper risus
+              pellentesque elit. Pellentesque eget ut imperdiet nulla penatibus.
+              Nascetur viverra arcu sed amet cursus purus.
+            </p>
+          </header>
+          <a href="#">Open Account</a>
+        </section>
+      </main>
+    </div>
+
+    <footer>
+      <h1><img src="images/Logo.png" alt="" /></h1>
+      <section>
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Security</a></li>
+          </ul>
+        </nav>
+      </section>
+      <section class="adresse">
+        <ul>
+          <li>
+            <a href="#">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="size-6"
+              >
+                <path
+                  d="M1.5 8.67v8.58a3 3 0 0 0 3 3h15a3 3 0 0 0 3-3V8.67l-8.928 5.493a3 3 0 0 1-3.144 0L1.5 8.67Z"
+                />
+                <path
+                  d="M22.5 6.908V6.75a3 3 0 0 0-3-3h-15a3 3 0 0 0-3 3v.158l9.714 5.978a1.5 1.5 0 0 0 1.572 0L22.5 6.908Z"
+                />
+              </svg>
+              hello@skillbirdge.com
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="size-6"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M1.5 4.5a3 3 0 0 1 3-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 0 1-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 0 0 6.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 0 1 1.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 0 1-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5Z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              +91 91813 23 2309
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="size-6"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="m11.54 22.351.07.04.028.016a.76.76 0 0 0 .723 0l.028-.015.071-.041a16.975 16.975 0 0 0 1.144-.742 19.58 19.58 0 0 0 2.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 0 0-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 0 0 2.682 2.282 16.975 16.975 0 0 0 1.145.742ZM12 13.5a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              Somewhere in the World
+            </a>
+          </li>
+        </ul>
+      </section>
+      <section class="footer">
+        <section class="footer-container">
+          <div class="SNS">
+            <ul>
+              <li>
+                <a href="#"><i class="bi bi-facebook"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="bi bi-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+              </li>
+            </ul>
+          </div>
+          <p>YourBank All Rights Reserved</p>
+          <div class="links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+          </div>
+        </section>
+      </section>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
